@@ -1,108 +1,92 @@
 {
-    "questions": [
+  "questions": [
+    {
+      "questionID": 1,
+      "questionText": "Qual tag é usada para criar um link em HTML?",
+      "options": [
         {
-            "questionID": 1,
-            "questionText": "Qual destes é uma fruta?",
-            "options": [
-                {
-                    "optionID": 1,
-                    "optionText": "Preto.",
-                    "optionTrue": false
-                },
-                {
-                    "optionID": 2,
-                    "optionText": "Chinelo.",
-                    "optionTrue": false
-                },
-                {
-                    "optionID": 3,
-                    "optionText": "Faca.",
-                    "optionTrue": false
-                },
-                {
-                    "optionID": 4,
-                    "optionText": "Laranja.",
-                    "optionTrue": true
-                }
-            ]
+          "optionID": 1,
+          "optionText": "<link>"
         },
         {
-            "questionID": 2,
-            "questionText": "Em que ano o Brasil foi descoberto?",
-            "options": [
-                {
-                    "optionID": 1,
-                    "optionText": "1500 A.C.",
-                    "optionTrue": false
-                },
-                {
-                    "optionID": 2,
-                    "optionText": "1200 D.C.",
-                    "optionTrue": false
-                },
-                {
-                    "optionID": 3,
-                    "optionText": "1500 D.C.",
-                    "optionTrue": true
-                },
-                {
-                    "optionID": 4,
-                    "optionText": "1800 D.C.",
-                    "optionTrue": false
-                }
-            ]
+          "optionID": 2,
+          "optionText": "<a>"
         },
         {
-            "questionID": 3,
-            "questionText": "Que linguagem de programação é conhecida ser pouco 'verbosa'?",
-            "options": [
-                {
-                    "optionID": 1,
-                    "optionText": "Python.",
-                    "optionTrue": true
-                },
-                {
-                    "optionID": 2,
-                    "optionText": "C++.",
-                    "optionTrue": false
-                },
-                {
-                    "optionID": 3,
-                    "optionText": "C#.",
-                    "optionTrue": false
-                },
-                {
-                    "optionID": 4,
-                    "optionText": "JavaScript.",
-                    "optionTrue": false
-                }
-            ]
+          "optionID": 3,
+          "optionText": "<url>"
         },
         {
-            "questionID": 4,
-            "questionText": "O que faz o verbo 'PUT' em uma requisição de APIs?",
-            "options": [
-                {
-                    "optionID": 1,
-                    "optionText": "Pega dados da API e mostra ao usuário.",
-                    "optionTrue": false
-                },
-                {
-                    "optionID": 2,
-                    "optionText": "Realiza uma substituição de dados.",
-                    "optionTrue": true
-                },
-                {
-                    "optionID": 3,
-                    "optionText": "Deleta um usuário com o ID selecionado.",
-                    "optionTrue": false
-                },
-                {
-                    "optionID": 4,
-                    "optionText": "Cria um novo objeto.",
-                    "optionTrue": false
-                }
-            ]
-        }
-    ]
+          "optionID": 4,
+          "optionText": "<anchor>"
+        }],
+        "IDOptionTrue": 2
+    },
+    {
+      "questionID": 2,
+      "questionText": "Como é possível selecionar todos os elementos de uma página usando CSS?",
+      "options": [
+        {
+          "optionID": 1,
+          "optionText": "#all {}"
+        },
+        {
+          "optionID": 2,
+          "optionText": "* {}"
+        },
+        {
+          "optionID": 3,
+          "optionText": "elements {}"
+        },
+        {
+          "optionID": 4,
+          "optionText": "all: {}"
+        }],
+        "IDOptionTrue": 2
+    },
+    {
+      "questionID": 3,
+      "questionText": "Qual a palavra-chave usada para declarar uma variável em JavaScript?",
+      "options": [
+        {
+          "optionID": 1,
+          "optionText": "var"
+        },
+        {
+          "optionID": 2,
+          "optionText": "variable"
+        },
+        {
+          "optionID": 3,
+          "optionText": "v"
+        },
+        {
+          "optionID": 4,
+          "optionText": "declare"
+        }],
+        "IDOptionTrue": 1
+    },
+    {
+      "questionID": 4,
+      "questionText": "Qual protocolo é usado para enviar e receber dados na web?",
+      "options": [
+        {
+          "optionID": 1,
+          "optionText": "FTP"
+        },
+        {
+          "optionID": 2,
+          "optionText": "SMTP"
+        },
+        {
+          "optionID": 3,
+          "optionText": "HTTP"
+        },
+        {
+          "optionID": 4,
+          "optionText": "TCP/IP"
+        }],
+        "IDOptionTrue": 3
+    }
+  ]
 }
